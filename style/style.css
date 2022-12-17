@@ -147,6 +147,15 @@
 .knifes {
   background-color: #373737;
   padding-top: 12vh;
+  position: relative;
+}
+.knifes .hr {
+  position: absolute;
+  top: 6vh;
+  left: 0;
+  background-color: #868282;
+  width: 100%;
+  height: 1px;
 }
 .knifes .knifes-name {
   color: white;
