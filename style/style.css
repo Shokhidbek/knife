@@ -309,15 +309,95 @@
   background-repeat: no-repeat;
   border-radius: 14px;
 }
-.images-box .imgs .img1, .images-box .imgs .img2, .images-box .imgs .img3 {
+.images-box .imgs .img1,
+.images-box .imgs .img2,
+.images-box .imgs .img3 {
   position: relative;
 }
-.images-box .imgs .img1 p, .images-box .imgs .img2 p, .images-box .imgs .img3 p {
+.images-box .imgs .img1 p,
+.images-box .imgs .img2 p,
+.images-box .imgs .img3 p {
   position: absolute;
   left: 10px;
   bottom: 10px;
 }
-.images-box .imgs .img1 .data, .images-box .imgs .img2 .data, .images-box .imgs .img3 .data {
+.images-box .imgs .img1 .data,
+.images-box .imgs .img2 .data,
+.images-box .imgs .img3 .data {
   float: right;
   padding: 15px;
+}
+
+.footer .container {
+  width: 100%;
+  min-height: 40vh;
+  background-color: #272727;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 10%;
+}
+.footer .container .foot-item {
+  width: 31%;
+  min-height: 40vh;
+}
+.footer .container .foot-item:nth-child(1) .brand-box {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-bottom: 2vh;
+  line-height: 19px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.footer .container .foot-item:nth-child(1) p {
+  line-height: 22px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer .container .foot-item:nth-child(2) h4 {
+  font-size: 22px;
+  margin-bottom: 2vh;
+  margin-left: 10px;
+}
+.footer .container .foot-item:nth-child(2) ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 4vh;
+  width: 100%;
+}
+.footer .container .foot-item:nth-child(2) ul li a {
+  text-decoration: none;
+  color: #545454;
+  font-weight: 600;
+  font-size: 17px;
+}
+.footer .container .foot-item:nth-child(3) h4 {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 30px;
+  margin-bottom: 3vh;
+}
+.footer .container .foot-item:nth-child(3) h2 {
+  line-height: 28px;
+  font-weight: 700;
+  font-size: 32px;
+}
+.footer .container .foot-item:nth-child(3) a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer .container .foot-item:nth-child(3) .time {
+  margin-bottom: 2vh;
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.footer .container .foot-item:nth-child(3) .info-3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }/*# sourceMappingURL=style.css.map */
